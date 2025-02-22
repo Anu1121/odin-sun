@@ -3,12 +3,12 @@ import './App.css'
 import Chart from './svg/Chart'
 import { ReactNode, useState, useEffect } from 'react'
 import Select from 'react-dropdown-select'
-import { tableData } from './svg/table-data'
+
 import { Level } from './types'
 import 'react-responsive-modal/styles.css'
 import { Modal } from 'react-responsive-modal'
 import { data, Section } from './svg/data'
-import { getData } from './api'
+
 
 const sectionDictionary: Record<Section, string> = {
   [Section.STATE]: 'State',
